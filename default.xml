@@ -1,0 +1,27 @@
+<root>
+    <types>
+        <type name="video">
+            <pattern>RIFF \(little-endian\) data*</pattern>
+        </type>
+    </types>
+    <categories>
+        <category name="Video">
+            <filter type="video">.</filter>
+            <moveto>/land/video/uncategorized</moveto>
+            <atage>20</atage>
+            <category name="TV Show">
+                <moveto>/land/video/series/unknown</moveto>
+                <atage>6</atage>
+                <filter type="video">[Ss][0-9]*[Ee][0-9]*</filter>
+                <priority>10</priority>
+                <category name="How I Met Your Mother">
+                    <moveto>/land/video/series/HIMYM</moveto>
+                    <atage>20</atage>
+                    <filter type="video">How.I.Met.Your.Mother</filter>
+                    <tvshow/>
+                    <priority>20</priority>
+                </category>
+            </category>
+        </category>
+    </categories>
+</root>
