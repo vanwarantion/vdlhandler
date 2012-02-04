@@ -1,0 +1,8 @@
+This is a set of python scripts to handle my downloads folder.
+
+TODO:
+
+* Ditch sqlite based schema and use XML to identify file types and tasks
+* Generate reports of recently found(downloaded) files. Send e-mails 
+etc.
+* Create a .deb package with a script to automatize crontab stuff
